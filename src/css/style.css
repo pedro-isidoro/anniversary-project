@@ -9,10 +9,7 @@ body{
 /* HEADER */
 header{
     padding: 2rem 0;
-    /* border-bottom: solid 0.2rem black; */
-    /* background-color: #6F6469; */
-    /* background-color: #281D1C; */
-    background: linear-gradient(#281D1C, #281D1C, #281D1C, #490109);
+    background: linear-gradient(var(--dark-grey), var(--dark-grey), var(--dark-grey), var(--dark-red));
 }
 
 .logo{
@@ -27,7 +24,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#490109, #C40112, #490109);
+    background: linear-gradient(var(--dark-red), var(--light-red), var(--dark-red));
 }
 
 .container .accordion{
@@ -66,7 +63,7 @@ header{
 
 .chords .title{
     font-size: 2.4rem;
-    color: #D28A42;
+    color: var(--title-color);
     margin-bottom: 4rem;
 }
 
@@ -89,22 +86,22 @@ header{
 
 .chords .options .option table thead tr th{
     font-size: 1.6rem;
-    color: #fc7114;
+    color: var(--th-color);
 }
 
 .chords .options .option table tfoot tr th{
     font-size: 1.6rem;
-    color: #fc7114;
+    color: var(--th-color);
 }
 
 .chords .options .option table tbody tr td{
     font-size: 1.4rem;
-    color: #EDECE1;
+    color: var(--td-color);
 }
 
 .chords .options .option table tfoot tr td{
     font-size: 1.4rem;
-    color: #EDECE1;
+    color: var(--td-color);
 }
 
 .chords .options .option table thead tr th, 
@@ -123,7 +120,7 @@ header{
 
     font-size: 1.9rem;
     padding-bottom: 1rem;
-    color: #e29755;
+    color: var(--title-color);
 }
 
 .option-title:hover{
@@ -160,10 +157,7 @@ footer{
     align-items: center;
     padding: 4rem 0 2rem 0;
 
-    /* border-top: solid 0.2rem black; */
-    /* background-color: #6F6469; */
-    /* background-color: #281D1C; */
-    background: linear-gradient(#490109, #281D1C, #281D1C, #281D1C);
+    background: linear-gradient(var(--dark-red), var(--dark-grey), var(--dark-grey), var(--dark-grey));
 }
 
 footer .footer-title{

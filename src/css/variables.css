@@ -1,0 +1,11 @@
+:root{
+    /* BACKGROUND CONTAINER*/
+    --light-red: rgb(196, 1, 18);
+    --dark-red: rgb(73, 1, 9);
+    --dark-grey: rgb(40, 29, 28);
+
+    /* WORDS */
+    --title-color: rgb(226, 151, 85);
+    --th-color: rgb(252, 113, 20);
+    --td-color: rgb(237, 236, 225);
+}
