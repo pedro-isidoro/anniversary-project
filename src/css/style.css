@@ -74,6 +74,7 @@ header{
     display: flex;
     flex-direction: column;
     margin-bottom: 2rem;
+    transition: 0.2s ease;
 }
 
 .chords .options .option:last-child{
@@ -134,16 +135,16 @@ header{
 }
 
 /* Estilo dos item quando ativos */
-.options .option.ativo .option-title{
+.options .option.active .option-title{
     font-size: 2.2rem;
 } 
 
-.options .option.ativo .table{
+.options .option.active .table{
     display: block;
     margin: 1rem 0 2rem 4.5rem;
 }
 
-/* .options .option:not(.ativo){
+/* .options .option:not(.active){
     font-size: 6rem;
 } */
 
