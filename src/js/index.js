@@ -2,17 +2,26 @@
 const optionsToTables = document.querySelectorAll(".option");
 console.log(optionsToTables);
 
-// h3's of the li
-// const optionTitle = document.querySelectorAll(".optionTitle");
-// console.log(optionTitle);
+const optionSubtitle = document.querySelectorAll(".ladies-and-gentlemen");
+console.log(optionSubtitle);
 
 optionsToTables.forEach(function(option){
     // console.log(option);
-    option.addEventListener("click", function() {
+    option.addEventListener("click", () => {
         const currentActiveOption = document.querySelector(".active");
         if(currentActiveOption){
-            currentActiveOption.classList.remove("active")
+            currentActiveOption.classList.remove("active");
         }
         option.classList.add("active");
     });
+});
+
+optionSubtitle.forEach(function(option){
+    option.addEventListener("click", () => {
+        const currentActiveLadiesGentlemen = document.querySelector(".active");
+        if(currentActiveLadiesGentlemen){
+            currentActiveLadiesGentlemen.classList.remove("active");
+        };
+        option.classList.add("active");
+    })
 });
