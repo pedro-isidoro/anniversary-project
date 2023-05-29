@@ -18,10 +18,10 @@ optionsToTables.forEach(function(option){
 
 optionSubtitle.forEach(function(option){
     option.addEventListener("click", () => {
-        const currentActiveLadiesGentlemen = document.querySelector(".active");
+        const currentActiveLadiesGentlemen = document.querySelector(".show");
         if(currentActiveLadiesGentlemen){
-            currentActiveLadiesGentlemen.classList.remove("active");
+            currentActiveLadiesGentlemen.classList.remove("show");
         };
-        option.classList.add("active");
+        option.classList.add("show");
     })
 });

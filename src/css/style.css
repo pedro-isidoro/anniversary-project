@@ -154,7 +154,7 @@ header{
     display: block;
 }
 
-.options .option.active .ladies-and-gentlemen.active .guests-table{
+.options .option.active .ladies-and-gentlemen.show .guests-table{
     display: block;
     margin: 0.2rem 0 2rem 4.4rem;
 }
