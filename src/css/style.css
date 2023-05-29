@@ -32,25 +32,22 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    position: relative;
 
-    /* width: 94rem; */
-    /* height: 84rem; */
-    width: 100%;
-    height: 100%;
+    width: 94rem;
+    height: 84rem;
+    /* height: 100%; */
     padding: 2rem 0 2rem 0;
     margin: 2rem 0;
     gap: 10rem;
-    /* border: solid 0.2rem black; */
+    border: solid 0.2rem black;
 }
 
-.container .accordion picture img{
+.container .accordion img{
+    margin-left: -8rem;
     height: 25rem;
     width: 45rem;
     border-radius: 10%;
-}
-
-.container .accordion picture{
-    margin-left: -8rem;
 }
 
 /* CHORDS */
@@ -140,10 +137,6 @@ header{
     display: block;
     margin: 1rem 0 2rem 4.5rem;
 }
-
-/* .options .option:not(.active){
-    font-size: 6rem;
-} */
 
 /* PRODUCTS */
 /* .noodle::before{   
