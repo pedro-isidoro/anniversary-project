@@ -8,4 +8,7 @@
     --title-color: rgb(226, 151, 85);
     --th-color: rgb(252, 113, 20);
     --td-color: rgb(237, 236, 225);
+
+    /* TABLE */
+    --color-table: rgba(255, 255, 255, 0.315);
 }

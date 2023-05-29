@@ -36,11 +36,9 @@ header{
 
     width: 100rem;
     height: 80rem;
-    /* height: 100%; */
     padding: 2rem 0 2rem 0;
     margin: 2rem 0;
     gap: 10rem;
-    /* border: solid 0.2rem black; */
 }
 
 .container .accordion img{
@@ -106,7 +104,7 @@ header{
 .chords .options .option table tfoot tr td{
     text-align: center;
     padding: 0.6rem;
-    border: solid 0.1rem rgba(255, 255, 255, 0.315);
+    border: solid 0.1rem var(--color-table);
 }
 
 /* Para o acordeon */
