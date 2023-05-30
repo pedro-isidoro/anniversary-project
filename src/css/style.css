@@ -16,7 +16,7 @@ header{
     text-align: center;
     width: 100%;
     font-size: 2.4rem;
-    color: #E5EAEC;
+    color: var(--header-footer-color);
 }
 
 /* Main */
@@ -118,7 +118,9 @@ header{
 }
 
 .option-title:hover{
-    color: black;
+    /* color: #7D706B; */
+    color: var(--title-hover-color);
+    text-shadow: 0.5rem 0 0.4rem var(--header-footer-color);
 }
 
 .option-sub-title{
@@ -174,7 +176,7 @@ footer{
 
 footer .footer-title{
     font-size: 2.2rem;
-    color: #E5EAEC;
+    color: var(--header-footer-color);
 }
 
 footer .nets{
@@ -188,9 +190,9 @@ footer .nets li{
 
 footer .nets li a{
     font-size: 1.8rem;
-    color: #a19299;
+    color: var(--footer-li-color);
 }
 
 footer .nets li a:hover{
-    color: #E5EAEC;
+    color: var(--light-red);
 }

@@ -6,9 +6,12 @@
 
     /* WORDS */
     --title-color: rgb(226, 151, 85);
+    --title-hover-color: rgb(39, 27, 27);
     --th-color: rgb(252, 113, 20);
     --td-color: rgb(237, 236, 225);
-
+    --header-footer-color: rgb(229, 234, 236);
+    --footer-li-color: rgb(161, 146, 153);
+    
     /* TABLE */
     --color-table: rgba(255, 255, 255, 0.315);
 }
