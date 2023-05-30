@@ -1,0 +1,172 @@
+@media(max-width: 413px){
+    .container .accordion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    
+        width: 60rem;
+        height: 104rem;
+        padding: 2rem 0 2rem 0;
+        margin: 2rem 0;
+    }
+
+    .container .accordion img{
+        position: absolute;
+        top: 0;
+        height: 20rem;
+        width: 35rem;
+    }
+
+    /* CHORDS */
+    .chords{
+        height: 90%;
+        padding-top: 23rem;
+    }
+
+    .chords .title{
+        font-size: 2.4rem;
+        margin-bottom: 2.6rem;
+    }
+
+    /* TABLES */
+    .chords .options .option table thead tr th, .chords .options .option table tfoot tr th{
+        font-size: 1.4rem;
+    }
+    
+    .chords .options .option table tbody tr td, .chords .options .option table tfoot tr td{
+        font-size: 1.2rem;
+    }
+
+    .chords .options .option table thead tr th, 
+    .chords .options .option table tbody tr td, 
+    .chords .options .option table tfoot tr th,
+    .chords .options .option table tfoot tr td{
+        padding: 0.4rem;
+    }
+
+    /* Para o acordeon */
+    .option-title{
+        font-size: 1.6rem;
+    }
+
+    .option-sub-title{
+        font-size: 1.7rem;
+        margin: 0 0 1rem 2rem;
+    }
+
+    /* Estilo dos item quando ativos */
+    .options .option.active .option-title{
+        font-size: 2rem;
+    } 
+
+    .options .option.active .table{
+        margin: 0.2rem 0 2rem 3rem;
+    }
+
+    .options .option.active .ladies-and-gentlemen.show .guests-table{
+        margin: 0.2rem 0 2rem 3rem;
+    }
+
+    /* FOOTER */
+    footer .footer-title{
+        font-size: 2rem;
+    }
+    
+    footer .nets{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 2rem 0;
+    }
+
+    footer .nets li{
+        padding: 1rem;
+    }
+}
+
+@media(max-width: 376px){
+    .container .accordion img{
+        height: 18rem;
+        width: 30rem;
+    }
+    
+    /* FOOTER */
+    footer .nets li a{
+        font-size: 1.6rem;
+    }
+}
+
+@media(max-width: 321px){
+    .container .accordion{
+        width: 60rem;
+        height: 100rem;
+        padding: 2rem 0 2rem 0;
+        margin: 2rem 0;
+    }
+
+    .container .accordion img{
+        height: 15rem;
+        width: 25rem;
+    }
+
+    /* CHORDS */
+    .chords{
+        height: 90%;
+        padding-top: 20rem;
+    }
+
+    .chords .title{
+        font-size: 2.2rem;
+    }
+
+    /* TABLES */
+    .chords .options .option table thead tr th, .chords .options .option table tfoot tr th{
+        font-size: 1.4rem;
+    }
+    
+    .chords .options .option table tbody tr td, .chords .options .option table tfoot tr td{
+        font-size: 1.2rem;
+    }
+
+    .chords .options .option table thead tr th, 
+    .chords .options .option table tbody tr td, 
+    .chords .options .option table tfoot tr th,
+    .chords .options .option table tfoot tr td{
+        padding: 0.4rem;
+    }
+
+    /* Para o acordeon */
+    .option-title{
+        font-size: 1.5rem;
+    }
+
+    .option-sub-title{
+        font-size: 1.7rem;
+        margin: 0 0 1rem 0.4rem;
+    }
+
+    /* Estilo dos item quando ativos */
+    .options .option.active .option-title{
+        font-size: 2rem;
+    } 
+
+    .options .option.active .table{
+        margin: 0.2rem 0 2rem 0;
+    }
+
+    .options .option.active .ladies-and-gentlemen.show .guests-table{
+        margin: 0.2rem 0 2rem 0.6rem;
+    }
+
+    /* FOOTER */
+    footer .footer-title{
+        font-size: 2rem;
+    }
+    
+    footer .nets li a{
+        font-size: 1.4rem;
+    }
+}
