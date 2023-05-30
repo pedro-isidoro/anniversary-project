@@ -1,4 +1,10 @@
-@media(max-width: 413px){
+@media(max-width: 601px){
+    /* HEADER */
+    .logo{
+        font-size: 2.8rem;
+    }
+
+    /* CONTAINER */
     .container .accordion{
         display: flex;
         flex-direction: column;
@@ -7,7 +13,7 @@
         position: relative;
     
         width: 60rem;
-        height: 104rem;
+        height: 108rem;
         padding: 2rem 0 2rem 0;
         margin: 2rem 0;
     }
@@ -15,13 +21,97 @@
     .container .accordion img{
         position: absolute;
         top: 0;
+        height: 28rem;
+        width: 50rem;
+    }
+
+    /* CHORDS */
+    .chords{
+        height: 90%;
+        padding-top: 33rem;
+    }
+
+    .chords .title{
+        font-size: 2.8rem;
+        margin-bottom: 2.6rem;
+    }
+
+    /* TABLES */
+    .chords .options .option table thead tr th, .chords .options .option table tfoot tr th{
+        font-size: 1.6rem;
+    }
+    
+    .chords .options .option table tbody tr td, .chords .options .option table tfoot tr td{
+        font-size: 1.4rem;
+    }
+
+    .chords .options .option table thead tr th, 
+    .chords .options .option table tbody tr td, 
+    .chords .options .option table tfoot tr th,
+    .chords .options .option table tfoot tr td{
+        padding: 0.4rem 0.5rem;
+    }
+
+    /* Para o acordeon */
+    .option-title{
+        font-size: 1.8rem;
+    }
+
+    .option-sub-title{
+        font-size: 1.7rem;
+        margin: 0 0 1rem 3rem;
+    }
+
+    /* Estilo dos item quando ativos */
+    .options .option.active .option-title{
+        font-size: 2.3rem;
+    } 
+
+    .options .option.active .table{
+        margin: 0.2rem 0 2rem 3rem;
+    }
+
+    .options .option.active .ladies-and-gentlemen.show .guests-table{
+        margin: 0.2rem 0 2rem 4.7rem;
+    }
+
+    /* FOOTER */
+    footer .footer-title{
+        font-size: 2.8rem;
+    }
+    
+    footer .nets{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 2rem 0;
+    }
+
+    footer .nets li{
+        padding: 1rem 1.2rem;
+    }
+
+    footer .nets li a{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 413px){
+    .container .accordion{    
+        width: 60rem;
+        height: 104rem;
+        padding: 2rem 0 2rem 0;
+        margin: 2rem 0;
+    }
+
+    .container .accordion img{
         height: 20rem;
         width: 35rem;
     }
 
     /* CHORDS */
     .chords{
-        height: 90%;
         padding-top: 23rem;
     }
 
@@ -75,10 +165,6 @@
     }
     
     footer .nets{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
         margin: 2rem 0;
     }
 
