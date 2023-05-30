@@ -1,5 +1,7 @@
 # anniversary-project
 Projeto Pessoal inspirado em um planejamento, pessoal, de uma festa.
+Uma forma de "caderno" digital, e forma de controlar as informações.
+<br>
 
 ## Projeto
 <img src="src/images/anniversary-project.gif" alt="Gif do Projeto">
@@ -17,7 +19,6 @@ Criar uma Landing page simples, com opções para clicar e dentro dela tabelas c
 - HTML
 - CSS
 - JS
-<br>
 <br>
 
 ## Desafios
