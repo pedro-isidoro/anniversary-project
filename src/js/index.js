@@ -1,9 +1,9 @@
 // li's
 const optionsToTables = document.querySelectorAll(".option");
-console.log(optionsToTables);
+// console.log(optionsToTables);
 
 const optionSubtitle = document.querySelectorAll(".ladies-and-gentlemen");
-console.log(optionSubtitle);
+// console.log(optionSubtitle);
 
 optionsToTables.forEach(function(option){
     // console.log(option);
