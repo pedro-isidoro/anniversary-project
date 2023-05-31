@@ -170,14 +170,6 @@
         font-size: 2.8rem;
     }
     
-    footer .nets{
-        margin: 2rem 0;
-    }
-
-    footer .nets li{
-        padding: 1rem 1.2rem;
-    }
-
     footer .nets li a{
         font-size: 2rem;
     }
@@ -247,10 +239,6 @@
         font-size: 2rem;
     }
     
-    footer .nets{
-        margin: 2rem 0;
-    }
-
     footer .nets li{
         padding: 1rem;
     }
