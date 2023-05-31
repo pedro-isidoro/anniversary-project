@@ -92,7 +92,7 @@ header{
 .chords .options .option table tfoot tr th,
 .chords .options .option table tfoot tr td{
     text-align: center;
-    padding: 0.6rem;
+    padding: 0.6rem 0.5rem;
     border: solid 0.1rem var(--color-table);
 }
 
