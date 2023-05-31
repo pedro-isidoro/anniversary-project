@@ -249,10 +249,26 @@
         height: 18rem;
         width: 30rem;
     }
-    
+
     /* FOOTER */
     footer .nets li a{
         font-size: 1.6rem;
+    }
+}
+
+@media(max-width: 356px){
+    .container .accordion{    
+        width: 60rem;
+        height: 104rem;
+    }
+
+    /* Estilo dos item quando ativos */
+    .options .option.active .table{
+        margin: 0.2rem 0 2rem 2rem;
+    }
+
+    .options .option.active .ladies-and-gentlemen.show .guests-table{
+        margin: 0.2rem 0 2rem 3rem;
     }
 }
 
