@@ -1,6 +1,7 @@
 # anniversary-project
-Projeto Pessoal inspirado em um planejamento, pessoal, de uma festa.
-Uma forma de "caderno" digital, e forma de controlar as informações.
+Projeto Pessoal inspirado em um planejamento pessoal de uma festa.
+<br>
+Uma forma de "caderno" digital, e de controle as informações respectivas ao objetivo.
 <br>
 
 ## Projeto
@@ -11,7 +12,9 @@ Uma forma de "caderno" digital, e forma de controlar as informações.
 <br>
 
 ## Objetivos
-Criar uma Landing page simples, com opções para clicar e dentro dela tabelas com as informções específicas.
+Criar uma Landing page simples no formato de uma lista de preparações de uma festa.
+<br>
+Com opções clicáveis, e dentro delas tabelas com suas informções específicas.
 <br>
 <br>
 
@@ -22,5 +25,6 @@ Criar uma Landing page simples, com opções para clicar e dentro dela tabelas c
 <br>
 
 ## Desafios
-Conseguir fazer com que quando clicado um item se outro estiver aberto fechar.
-Fazer uma cor de fundo fazendo degradê.
+Conseguir fazer com que ao se clicar em uma opção, se outro item estiver aberto, seja fechado.
+<br>
+Fazer com que no fundo do site tenha uma cor no estilo degradê.
