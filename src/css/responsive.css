@@ -269,11 +269,11 @@
 
     /* TABLES */
     .chords .options .option table thead tr th, .chords .options .option table tfoot tr th{
-        font-size: 1.4rem;
+        font-size: 1.22rem;
     }
     
     .chords .options .option table tbody tr td, .chords .options .option table tfoot tr td{
-        font-size: 1.2rem;
+        font-size: 1.08rem;
     }
 
     .chords .options .option table thead tr th, 
@@ -299,7 +299,7 @@
     } 
 
     .options .option.active .table{
-        margin: 0.2rem 0 2rem 2.2rem;
+        margin: 0.2rem 0 2rem 1.8rem;
     }
 
     .options .option.active .ladies-and-gentlemen.show .guests-table{
@@ -320,7 +320,7 @@
     /* CONTAINER */
     .container .accordion{    
         width: 60rem;
-        height: 92rem;
+        height: 98rem;
     }
 
     .container .accordion img{
@@ -335,11 +335,11 @@
 
     /* TABLES */
     .chords .options .option table thead tr th, .chords .options .option table tfoot tr th{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     
     .chords .options .option table tbody tr td, .chords .options .option table tfoot tr td{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     /* Estilo dos item quando ativos */
@@ -356,17 +356,26 @@
     /* CONTAINER */
     .container .accordion{    
         width: 60rem;
-        height: 94rem;
+        height: 99rem;
     }
 
     /* CHORDS */
     .chords{
-        padding-top: 26rem;
+        padding-top: 22rem;
+    }
+
+    /* TABLES */
+    .chords .options .option table thead tr th, .chords .options .option table tfoot tr th{
+        font-size: 1rem;
+    }
+    
+    .chords .options .option table tbody tr td, .chords .options .option table tfoot tr td{
+        font-size: 0.9rem;
     }
 
     /* Estilo dos item quando ativos */
     .options .option.active .table{
-        margin: 0.2rem 0 2rem 1rem;
+        margin: 0.2rem 0 2rem 1.3rem;
     }
 
     .options .option.active .ladies-and-gentlemen.show .guests-table{
