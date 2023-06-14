@@ -95,9 +95,6 @@
     }
 }
 
-/* ESSE ESTÁ IMBUTIDO NO DE CIMA */
-/* @media(max-width: 769px){} */
-
 @media(max-width: 601px){
     /* HEADER */
     .logo{
@@ -107,7 +104,7 @@
     /* CONTAINER */
     .container .accordion{
         width: 60rem;
-        height: 108rem;
+        height: 112rem;
     }
 
     .container .accordion img{
@@ -250,7 +247,7 @@
     /* CONTAINER */
     .container .accordion{    
         width: 60rem;
-        height: 104rem;
+        height: 97rem;
     }
 
     .container .accordion img{
@@ -320,7 +317,7 @@
     /* CONTAINER */
     .container .accordion{    
         width: 60rem;
-        height: 98rem;
+        height: 90rem;
     }
 
     .container .accordion img{
@@ -356,7 +353,7 @@
     /* CONTAINER */
     .container .accordion{    
         width: 60rem;
-        height: 99rem;
+        height: 90rem;
     }
 
     /* CHORDS */
@@ -387,7 +384,7 @@
     /* CONTAINER */
     .container .accordion{    
         width: 60rem;
-        height: 90rem;
+        height: 92rem;
     }
 
     /* TABLES */
