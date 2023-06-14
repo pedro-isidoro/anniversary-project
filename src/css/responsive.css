@@ -372,7 +372,7 @@
 
     /* Estilo dos item quando ativos */
     .options .option.active .table{
-        margin: 0.2rem 0 2rem 1.3rem;
+        margin: 0.2rem 0 2rem 1rem;
     }
 
     .options .option.active .ladies-and-gentlemen.show .guests-table{
@@ -382,9 +382,14 @@
 
 @media(max-width: 321px){
     /* CONTAINER */
+    .container .accordion img{
+        height: 16rem;
+        width: 26rem;
+    }
+
     .container .accordion{    
-        width: 60rem;
-        height: 92rem;
+        width: 68rem;
+        height: 89rem;
     }
 
     /* TABLES */

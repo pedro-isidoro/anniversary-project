@@ -108,7 +108,6 @@ header{
 }
 
 .option-title:hover{
-    /* color: #7D706B; */
     color: var(--title-hover-color);
     text-shadow: 0.5rem 0 0.4rem var(--header-footer-color);
 }
