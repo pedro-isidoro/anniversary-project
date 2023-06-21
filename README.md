@@ -1,7 +1,7 @@
 # anniversary-project
-Projeto Pessoal feito se inspirando em um planejamento de um jantar com amigos.
+Projeto Pessoal inspirado em um planejamento de um jantar com amigos.
 <br>
-Uma forma de "caderno" digital para anotar e visualizar eficientemente as informações do evento.
+Uma forma de "caderno digital" para anotar e visualizar eficientemente as informações do evento.
 <br>
 
 ## Projeto
